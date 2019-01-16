@@ -1,5 +1,5 @@
 <?
-	require('config/init.php');
+	require('../config/init.php');
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -26,7 +26,7 @@
 	<article>
 		<div class="pics">
 			<!--добавлены дополнительные превью 15.02.2018 -->
-			<div><a href="index.html">Главная</a> / Каталог книг</div>
+			<div><a href="index.php">Главная</a> / Каталог книг</div>
 			<br>
 			<?php 					
 				$lim = 2 + $_SESSION['val'];	

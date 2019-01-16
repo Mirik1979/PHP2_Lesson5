@@ -61,6 +61,15 @@ class database
 		return $res;
     }
 
+    public function insert($query, $params = array())
+    {
+        $res = $this->db->prepare($query);
+        $res->execute($params);
+        return $res;
+    }
+
+
+
     /*
      * Выполнить запрос с выборкой данных
      */
@@ -82,6 +91,9 @@ class database
             return $result->fetchAll()[0];
         }
     }
+
+
+
 		
 }
 ?>
