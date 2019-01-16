@@ -18,7 +18,7 @@ li {
 .container {
     display: flex;
     position: relative;
-    width: 455px;
+    width: 600px;
     height: 125px;
     min-height: 20%;
 }
@@ -33,7 +33,7 @@ li {
 .menu {
 	font-style: normal;
     background-color: white;
-    width: 225px;
+    width: 470px;
 	color: blue;  
     display: flex;
     align-items: center;
@@ -151,8 +151,7 @@ li {
 
 INPUT:focus {
     background-color: #B13603; 
-    color: #B1369D; 
-    text-transform: capitalize;
+    color: white;    
 }
 
 table {
